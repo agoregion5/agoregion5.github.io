@@ -9934,7 +9934,7 @@ var fakeWorkerFilesLoader = null;
       require.ensure([], function () {
         try {
           var worker;
-          worker = require('./pdf.worker.js');
+          worker = require('https://agoregion5.github.io/pdf-viewer/external/pdfjs/build/pdf.worker.js');
           resolve(worker.WorkerMessageHandler);
         } catch (ex) {
           reject(ex);
