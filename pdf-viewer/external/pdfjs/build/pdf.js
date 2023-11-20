@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @licend The above is the entire license notice for the
+ * @license The above is the entire license notice for the
  * Javascript code in this page
  */
 
@@ -9925,7 +9925,7 @@ var fakeWorkerFilesLoader = null;
   }
 
   if (typeof requirejs !== 'undefined' && requirejs.toUrl) {
-    fallbackWorkerSrc = requirejs.toUrl('pdfjs-dist/build/pdf.worker.js');
+    fallbackWorkerSrc = requirejs.toUrl('https://agoregion5.github.io/pdf-viewer/external/pdfjs/build/pdf.worker.js');
   }
 
   var dynamicLoaderSupported = typeof requirejs !== 'undefined' && requirejs.load;
